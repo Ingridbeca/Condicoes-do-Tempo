@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 2rem;
+    margin-bottom: 20vh;
+    background-color: rgba(148, 195, 212, 0.877);
+    color: white;
+    border-radius: 1vh;
+    width: 600px;
+    height: 300px;
+}
+
+main>h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+main #search-form {
+    display: flex;
+    justify-content: center;
+}
+
+main #search-form input {
+    width: 100%;
+    border: none;
+    height: 32px;
+    width: 220px;
+    padding: 6px;
+}
+
+main #search-form input:focus {
+    box-shadow: 1px 2px 3px 2px #83838342;
+    outline: 0;
+}
+
+main #search-form button {
+    background-color: rgba(82, 165, 196, 0.877);
+    font-weight: 500;
+    color: white;
+    border: none;
+}
+
+main #search-form button:focus {
+    box-shadow: 1px 2px 3px 2px #83838342;
+}
+
+form>input,
+button {
+    height: 32px;
+    width: 70px;
+    border-radius: 1vh;
+}
+
+main #tempo-info {
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main #tempo-info .tempo-dados h2 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+main #tempo-info .tempo-dados span {
+    font-size: 3rem;
+}
